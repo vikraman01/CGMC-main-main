@@ -79,7 +79,6 @@ h4 {
 }
 
 h5 {
-  color: var(--primary-color);
   font-size: var(--h5-font-size);
 }
 
@@ -266,6 +265,10 @@ General Section
   text-decoration: none;
   color: white;
   font-family: sans-serif;
+}
+
+.genre-1-link h5 {
+  color: white;
 }
 
 .genre-1-link:hover {
