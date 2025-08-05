@@ -1,0 +1,19 @@
+<!-- Start Single Person -->
+<div class="col-4 col-lg-3">
+    <div class="single-person">
+        <div class="person-image">
+            <img src="{{ image }}" alt="{{ name }}">
+            <span class="icon">
+                <img src="assets/images/cgmcico.png" alt="CGMC icon">
+            </span>
+        </div>
+        <div class="person-info">
+            <h3 class="full-name">{{ name }}</h3>
+            <span class="speciality"><b>Designation:</b> {{ designation }}</span><br>
+            {% if registration_number %}
+            <span class="speciality"><b>Registration Number:</b> {{ registration_number }}</span><br>
+            {% endif %}
+            <span class="speciality"><b>Email:</b>{{ email }}</span><br>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Dr. R. SANTHAKUMAR",
+    "designation": "PROFESSOR & HEAD",
+    "registration_number": "74022",
+    "email": "santhakumaranat@gmail.com",
+    "image": "assets/images/staff/SANTHAKUMAR.jpg"
+  },
+  {
+    "name": "Dr. K. VENGADACHALAM",
+    "designation": "ASSOCIATE PROFESSOR",
+    "registration_number": "73425",
+    "email": "pkv.sdumcap@gmail.com",
+    "image": "assets/images/staff/VENGATACHALAM.jpg"
+  },
+  {
+    "name": "Dr. S. UMARANI",
+    "designation": "ASSOCIATE PROFESSOR",
+    "registration_number": "66272",
+    "email": "drsumarani@gmail.com",
+    "image": "assets/images/staff/UMARANI.jpg"
+  },
+  {
+    "name": "Dr. J. SUJITHA JACINTH",
+    "designation": "ASSOCIATE PROFESSOR",
+    "registration_number": "62587",
+    "email": "sujitha_jaf@rediffmail.com",
+    "image": "assets/images/staff/SUJITHA JACINTH.jpg"
+  },
+  {
+    "name": "Dr. A. SHALINIMAYA",
+    "designation": "TUTOR",
+    "registration_number": "",
+    "email": "shalini_kamarajan@yahoo.co.in",
+    "image": "assets/images/staff/SHALINI MAYA.jpg"
+  },
+  {
+    "name": "Dr. V. ANANDHI",
+    "designation": "TUTOR",
+    "registration_number": "3196",
+    "email": "ananthisricharan@gmail.co.in",
+    "image": "assets/images/staff/ANANDHI.jpg"
+  },
+  {
+    "name": "Dr. B. VIDHYA",
+    "designation": "TUTOR",
+    "registration_number": "93211",
+    "email": "dr.vidhya1987@gmail.com",
+    "image": "assets/images/staff/VIDHYAB.jpg"
+  }
+]
