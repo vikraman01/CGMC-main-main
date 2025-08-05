@@ -20,8 +20,11 @@
   --border-radius-small: 10px;
   --font-weight-light: 300;
   --font-weight-normal: 400;
+  --font-weight-medium: 500;
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
+  --secondary-color: #2e3192;
+  --p-color: #717275;
 }
 
 html {
@@ -333,14 +336,6 @@ General Section
   color: var(--white-color);
 }
 
-#navbarLightDropdownMenuLink {
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-top: 10px;
-  padding-bottom: 12px;
-  color: #202020;
-  font-weight: 500;
-}
 
 /*--------------------------------------
   FEATURES
@@ -415,17 +410,18 @@ General Section
 .navbar-expand-lg .navbar-nav .nav-link {
   margin-right: 0;
   margin-left: 0;
-  padding: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 12px;
 }
 
 .navbar-nav .nav-link {
   display: inline-block;
-  color: var(--p-color);
+  color: #202020;
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-medium);
   position: relative;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 .navbar-nav .nav-link.active,
