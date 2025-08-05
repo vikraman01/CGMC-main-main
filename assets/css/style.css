@@ -1436,5 +1436,19 @@ OUR RECRUITER
   width:95%;
   display: block;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
+}
+
+/* Image width utilities */
+.img-max-55 {
+  max-width: 55px;
+}
+
+.img-max-400 {
+  max-width: 400px;
+}
+
+.footer-logo {
+  margin: -57px 10px 22px 55px;
+  max-width: 156px;
 }
