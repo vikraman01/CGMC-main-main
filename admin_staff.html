@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Staff Manager</title>
+  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+</head>
+<body class="p-4">
+  <h1 class="mb-3">Manage Staff</h1>
+
+  <form id="staffForm" class="border p-3 mb-4">
+    <div class="mb-3">
+      <label class="form-label">Name</label>
+      <input type="text" class="form-control" name="name" required />
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Designation</label>
+      <input type="text" class="form-control" name="designation" required />
+    </div>
+    <div class="mb-3">
+      <label class="form-label">TNMC Registration #</label>
+      <input type="text" class="form-control" name="reg" required />
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Email</label>
+      <input type="email" class="form-control" name="email" />
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Department HTML</label>
+      <select class="form-select" name="dept" required>
+        <option value="physiology.html">Physiology</option>
+        <option value="psychiatry.html">Psychiatry</option>
+        <!-- Add more departments -->
+      </select>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Photo</label>
+      <input type="file" class="form-control" name="photo" accept="image/*" required />
+    </div>
+    <button class="btn btn-primary" type="submit">Add Staff</button>
+  </form>
+
+  <div id="staffList"></div>
+
+  <script src="admin_staff.js"></script>
+</body>
+</html>
