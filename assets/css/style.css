@@ -1452,3 +1452,30 @@ OUR RECRUITER
   margin: -57px 10px 22px 55px;
   max-width: 156px;
 }
+
+/* Shared gallery styles */
+.container-p {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  flex: 0 0 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.item p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
