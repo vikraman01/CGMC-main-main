@@ -1449,7 +1449,8 @@ OUR RECRUITER
 }
 
 .footer-logo {
-  margin: -57px 10px 22px 55px;
+  margin: -57px auto 22px;
+  display: block;
   max-width: 156px;
 }
 
